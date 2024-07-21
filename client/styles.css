@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    border: 2px solid black;
+}
+
+#btn{
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#message{
+    border: 1px solid black;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
