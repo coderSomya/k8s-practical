@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req,res)=>{
 
 	res.send({
-		msg: "hello world"
+		msg: `${process.env.MESSAGE}`
 	});
 });
 
